@@ -12,6 +12,5 @@ spec:
     - containerPort: 80
   tolerations:
   - key: "project"
-    operator: "Equal"
-    value: "roboshop"
+    operator: "Exists"
     effect: "NoSchedule"
